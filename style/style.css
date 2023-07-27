@@ -406,7 +406,7 @@ background-clip: text;
     
 }
 .game-catagories{
-/* margin-top: 0px; */
+margin-top: 0px;
 /* border: 10px solid rgb(145, 145, 176); */
 margin-left: 50px;
 margin-right: 50px;
@@ -424,7 +424,7 @@ margin-right: 50px;
     
 }
 .game-first-row{
-margin-bottom: 50px;
+margin-bottom: 0px;
 
 }
 
@@ -505,3 +505,150 @@ margin-bottom: 10px;
     line-height: normal;
 
 }
+/*                             responsive  */
+
+
+/*                  mobilee */
+
+@media screen and (max-width: 576px) {
+    header {
+      /* padding: 20px; */
+    }
+nav,
+nav>ul,
+.banner,
+.play-instantly,
+.we-are-gamer,
+.online-games,
+.games-card,
+.game-first-row,
+.game-second-row,
+footer>ul,
+.footer-img-container,
+.play-instantly-img
+
+
+    {
+        display: flex;
+      flex-direction: column;
+    
+    }
+
+footer
+
+
+
+{
+
+    width: 650px;
+}
+
+
+.game-first-row{
+    margin-left: 150px;
+}
+nav{
+margin-left: 300px ;
+
+}
+.banner-content{
+margin-left: 200px;
+
+}
+.banner img{
+margin-left: 100px;
+
+}
+.we-are-gamer img
+{
+margin-left: 150px;
+
+}
+.we-are-gamer-content{
+margin-left: 190px;
+}
+.online-games{
+
+    margin-left: 190px;
+    padding-bottom: 1400px;
+}
+.play-instantly-img{
+
+    margin: 0 10px;
+    
+}
+
+
+
+   
+  }
+/* tablet  */
+
+  @media screen and (min-width: 576px) and (max-width: 960px) {
+  
+  
+    nav,
+nav>ul,
+.banner,
+.play-instantly,
+.we-are-gamer,
+.online-games,
+.games-card,
+.game-first-row,
+.game-second-row,
+footer>ul,
+.footer-img-container,
+.play-instantly-img
+    {
+    
+      flex-direction: column;
+    }
+
+
+    .game-first-row{
+        margin-left: 150px;
+    }
+    nav{
+    margin-left: 300px ;
+    
+    }
+    .banner-content{
+    margin-left: 200px;
+    
+    }
+    .banner img{
+    margin-left: 100px;
+    
+    }
+    .we-are-gamer img
+    {
+    margin-left: 150px;
+    
+    }
+    .we-are-gamer-content{
+    margin-left: 190px;
+    }
+    .online-games{
+    
+        margin-left: 190px;
+        padding-bottom: 1400px;
+    }
+    .play-instantly-img{
+    
+        margin: 0 10px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
