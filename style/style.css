@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+
+/* header  */
+
+
+* {
+    font-family: "Work Sans", sans-serif;
+  }
+
+  nav{
+justify-content: space-between;
+align-items: center;
+display: flex;
+margin: 50px;
+color: #0B0223;
+
+  }
+
+.nav-title{
+display: flex;
+align-items: center;
+
+}
+#g-pink{
+
+color: rgb(207, 54, 105);
+
+}
+nav>ul{
+list-style: none;
+display: flex;
+gap: 20px;
+align-items: center;
+
+}
+#a3{
+border: 1px solid rebeccapurple;
+border-radius: 5px;
+padding: 10px;
+background: rgba(11, 2, 35, 0.10);
+
+
+
+}
+nav li a{
+text-decoration: none;
+color: #0B0223;
+
+
+}
+.nav-title img{
+
+width: 50px;
+height: 20px;
+align-items: center;
+}
+
+/*                   header ends here   */
+
+/*                      banner stats here  */
+.banner-title1{
+
+    color: #0B0223;
+    /* text-align: center; */
+    
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+
+
+}
+
+.banner-title2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* text-align: center; */
+
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+
+}
+
+
+.banner-btn{
+
+    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+  
+
+
+}
+.banner-btn .sign-in{
+    color: #FFF;
+    padding:10px 30px;
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+    border: 1px solid palevioletred;
+}
+.banner-btn .go-rogue{
+    color: #FFF;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: 1px solid palevioletred;
+    padding:10px 30px;
+}
+
+.banner img{
+max-height: 400px;
+width:fit-content;
+justify-content: space-around;
+
+}
+.banner{
+display: flex;
+justify-content: space-around;
+margin: 0 50px;
+}
+/*                    banner ends here  */
+
+          /* .we-are-gamer  section here   */
+
+.we-are-gamer-content{
+    /* text-align: right; */
+    
+    
+}
+.we-are-gamer-content h2{
+ 
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-bottom: 2px;
+    
+}
+.we-are-gamer-content p{
+    color: #534C64;
+    /* text-align: right; */
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: fit-content;
+    line-height: 30px; /* 166.667% */
+}
+.we-are-gamer-btn{
+    font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+
+    color: #FFF;
+    padding:10px 30px;
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+
+    border: 1px solid palevioletred;
+}
+#purpose{
+    color: #534C64;
+    text-align: right;
+    
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; /* 187.5% */
+
+}
+#unleash{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+
+}
+.we-are-gamer{
+display: flex;
+max-width:fit-content;
+margin: 20px 50px;
+
+}
+
+/*                    online games section  */
+
+
+.online-games h2{
+
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#funny{
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.online-games p{
+
+    color: #534C64;
+    text-align: center;
+  
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.games-card{
+    display: flex;
+    border-radius: 16px;
+    gap: 20px;
+    width: 342px;
+height: 400px;
+margin:20px 30px;
+
+}
+.card p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+
+}
+.online-games{
+    margin:30px 0;
+}
+
+.card{
+position: relative;
+display: inline-block;
+
+}
+/* hover on images  */
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    cursor: pointer;
+    display: none; 
+  }
+  
+  .card:hover .play-button {
+    display: block; 
+  }
+  
+  .play-button::before {
+    content: '\25B6'; 
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+
+  /*                play instantly section here  */
+
+
+  #play{
+    /* text-align: right; */
+
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+  }
+#no-downloads{
+
+    
+    
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+
+  }
+  .play-instantly{
+margin: 100px;
+margin-bottom: 3px;
+display: flex;
+justify-content: space-between;
+/* align-items: center; */
+
+  }
+  .play-instantly-content p{
+    color: #534C64;
+    /* text-align: right; */
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */ 
+    width: 353px;
+  }
+  #horse{
+    width: 700px;
+    height: 700px;
+    /* margin-right: 20px; */
+    margin-top: 80px;
+
+
+  }
+  .play-instantly-content{
+margin: 120px;
+margin-left: 160px;
+margin-top: 280px;
+
+
+  }
+  .middle-img{
+position: relative;
+/* align-items: center; */
+bottom: 200px;
+right: 200px;
+
+
+  }
+  /*                   play instantly section ends here  */
+
+
+
+  /*                     game catagories section here    */
+
+
+.cat-btn{
+text-decoration: none;
+
+border: none;
+padding: 25px 20px;
+padding-top: 30px;
+border-radius: 50px;
+margin: 10px 20px;
+
+color: #0B0223;
+
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+/* display: grid; */
+transition:0.3s;
+
+
+}
+.cat-btn:hover{
+    border: 1px solid rgb(223, 27, 92);
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    
+}
+.game-catagories{
+margin-top: 0px;
+/* border: 10px solid rgb(145, 145, 176); */
+margin-left: 50px;
+margin-right: 50px;
+
+}
+
+.game-catagories img{
+    border-radius: 50px;
+    position: relative;
+    top: 20px;
+    right: 3px;
+   
+  
+
+    
+}
+.game-first-row{
+margin-left:150px ;
+margin-bottom: 30px;
+
+}
+
+.game-second-row{
+margin-left: 270px;
+margin-bottom: 100px;
+max-width: fit-content;
+
+}
+
+
+
+
+
+
+
+/*                            footer   works here  */
+footer{
+    padding: 70px;
+background-color: #0B0223;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: #FFF;
+}
+.footer-title{
+display: flex;
+font-size:x-large;
+align-items: center;
+gap: 5px;
+margin-bottom: 10px;
+
+}
+
+.footer-title img{
+
+    width: 50px;
+    height: 20px;
+    align-items: center;
+
+} 
+footer>ul{
+list-style: none;
+display: flex;
+justify-content: space-around;
+gap: 50px;
+
+
+}
+.footer-img-container{
+    display: flex;
+gap: 50px;
+margin: 40px 0;
+
+}
+.footer-p{
+display: flex;
+margin-top: 10px;
+
+color: rgba(255, 255, 255, 0.60);
+text-align: center;
+gap: 30px;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.copyright{
+margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
